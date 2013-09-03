@@ -16,7 +16,7 @@ float opa (int argc,char *argv[] )
 {       
     Points * D=(Points *)malloc(sizeof(Points));
     int atrn=count_atr(argv[1]);
-    printf("attribures:%d\n",atrn);
+    //printf("attribures:%d\n",atrn);
     /*
        if(!ckpa(argc,argv,atrn))
        {
@@ -26,7 +26,7 @@ float opa (int argc,char *argv[] )
        }
      */
     D->len=count_inst(argv[1]);
-    printf("%d instances\n",D->len);
+    //printf("%d instances\n",D->len);
     D->x=(data_type *)malloc(sizeof(data_type)*D->len);
     D->y=(data_type *)malloc(sizeof(data_type)*D->len);
     D->grid=(label_type *)malloc(sizeof(label_type)*D->len);
