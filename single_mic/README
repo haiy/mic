@@ -1,0 +1,11 @@
+Date:Tue Sep  3 22:23:12 CST 2013
+Author:haiy
+Desciption:
+    This verion mic with the "opa" function is to compute just a pair data's
+    MIC value.
+How To Use It:
+Example,
+
+    $make
+    $./mic_set  corral.csv 0 5 0.6 15
+
